@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+      <title>TODO List</title>
+      <meta name="description" content="This page is used for TODO list">
+      <meta name="author" content="Lawrence Croiden Lobo">
+      <link rel="stylesheet" href="css/styles.css">
+   </head>
+   <body>
+      <header>
+         <h1>Todo List</h1>
+      </header>
+
+      <div id="container">
+         <div class="masterView">
+            <input type="text" placeholder="Add Item">
+            <div class="item-list" style="display:none;">
+      				<div class="markAll">
+      					     <input id="checkAll" type="checkbox" onchange="" />
+      					     <label for="checkAll"></label>
+      					     <span>Mark all as complete</span>
+      				</div>
+      				<div class="taskList">
+      				</div>
+      				<footer>
+      				   <div class="count" style="display: block;">2 items left</div>
+      				   <button style="display: none;"></button>
+      				</footer>
+            </div>
+         </div>
+      </div>
+      <script src="build/app.bundle.js"></script>
+	  <!--<script type="module" src="js/app.js"></script>-->
+   </body>
+</html>
